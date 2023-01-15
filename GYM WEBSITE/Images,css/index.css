@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif JP', serif;
+    
+}
+/* ----------------------------------section-1 start ------------------------------------------------------------------ */
+#section1{
+    width: 1349px;
+    height: 649px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* ----------------------------------navbar-start--------------------------------------------------------------------------- */
+.navbar {
+    display: inline-block;
+    width: 1349px;
+    height: 45px;
+    background-color: rgba(61, 57, 57, 0.411);
+}
+.navbar ul{
+display: inline-flex;
+position: relative;
+left: 200px;
+padding: 10px 0px;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px ;
+}
+.navbar ul li a:hover{
+    color: #f36100;
+    text-decoration: line-through;
+}
+#search-bar {
+display: inline-block;
+position: relative;
+}
+#search-bar input{
+    display: inline-block;
+    width: 181px;
+    height:27px;
+    border: none;
+outline:none;
+position: relative;
+left: 5px;
+border-radius:25px 0px 0px 25px ;
+padding: 0px 5px;
+
+}
+#search-bar button{
+    color: white;
+    display: inline-block;
+    border: none;
+    width: 49px;
+    height: 27px;
+    outline:none;
+    border-radius:0px 25px 25px 0px ;
+    background-color: #f36100;
+
+}
+#search-bar button:hover{
+    background-color: #f36100cc;
+    cursor: pointer;
+}
+#search-bar input:hover{
+    cursor: pointer;
+}
+#social-media{
+    display: inline-flex;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 10px;
+}
+#social-media .social-media-img{
+    display: inline-block;
+    width: 25px;
+    filter: invert(100%);
+    padding: 0px 2px;
+}
+#social-media .social-media-img:hover{
+    background-color: #0092f3;
+}
+
+/* ----------------------------------------navbar closed------------------------------------------------------------- */
+   
+/* ---------------------------------------section1-main  start -------------------------------------------------------- */
+.slogan{
+    color: white;
+    display: inline-block;
+font-size: 60px;
+
+}
+.section1-main #p2{
+display: inline-block;
+position: relative;
+top: 220px;
+left: 800px;
+}
+.section1-main #strong2{
+    color:#f36100;
+    position: relative;
+top: 220px;
+left: 815px;
+}
+.section1-main #p3{
+    position: relative;
+top: 290px;
+left: 580px;
+}
+.section1-main button{
+    width: 100px;
+    height: 40px;
+    background-color: #f36100;
+    color: white;
+    border: none;
+    outline: none;
+    display: inline-block;
+    position: relative;
+    top: 330px;
+    left: 80px;
+}
+.section1-main button:hover{
+    background-color: #f36100a6;
+}
+
+.section1-main #p1{
+    color: white;
+    float: right;
+    position: relative;
+    display: inline-flex;
+    right: 352px;
+    top: 212px;
+    letter-spacing: 2px;
+
+}
+
+
+/* ---------------------------------------section1-main  closed -------------------------------------------------------- */
+
+/* ---------------------------------------section1 closed -------------------------------------------------------- */
