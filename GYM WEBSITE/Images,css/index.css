@@ -18,6 +18,9 @@
     background-attachment: fixed;
     background-size: cover;
 }
+:root{
+    --primary-color:#f36100;
+}
 /* ----------------------------------navbar-start--------------------------------------------------------------------------- */
 .navbar {
     display: inline-block;
@@ -41,7 +44,7 @@ padding: 10px 0px;
     padding: 0px 10px ;
 }
 .navbar ul li a:hover{
-    color: #f36100;
+    color: var(--primary-color);
     text-decoration: line-through;
 }
 #search-bar {
@@ -68,11 +71,11 @@ padding: 0px 5px;
     height: 27px;
     outline:none;
     border-radius:0px 25px 25px 0px ;
-    background-color: #f36100;
+    background-color: var(--primary-color);
 
 }
 #search-bar button:hover{
-    background-color: #f36100cc;
+    background-color: var(--primary-color)cc;
     cursor: pointer;
 }
 #search-bar input:hover{
@@ -111,11 +114,12 @@ top: 220px;
 left: 800px;
 }
 .section1-main #strong2{
-    color:#f36100;
+    color:var(--primary-color);
     position: relative;
 top: 220px;
 left: 815px;
 }
+
 .section1-main #p3{
     position: relative;
 top: 290px;
@@ -124,7 +128,7 @@ left: 580px;
 .section1-main button{
     width: 100px;
     height: 40px;
-    background-color: #f36100;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     outline: none;
@@ -134,7 +138,8 @@ left: 580px;
     left: 80px;
 }
 .section1-main button:hover{
-    background-color: #f36100a6;
+    background-color: #f361007e;
+    cursor: pointer;
 }
 
 .section1-main #p1{
